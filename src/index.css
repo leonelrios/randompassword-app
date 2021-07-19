@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+/* General */
+.bg-green-light {
+  background-color: #a5d6a7;
+}
+
+* {
+  margin: 0;
+  font-family: "Russo One", sans-serif;
+}
+
+/* HTML */
+
+.form-check-input:checked {
+  background-color: #212529 !important;
+  border-color: #212529 !important;
+}
+
+.input-password {
+  height: 3rem;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.div-iscopy {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* xs */
+@media (max-width: 575.98px) {
+  .div-options {
+    margin-top: 1rem !important;
+  }
+  .div-password {
+    margin-top: 1rem !important;
+  }
+  .h5-options {
+    margin-top: 1rem !important;
+  }
+  .input-password {
+    height: 3rem;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .input-switch {
+    width: 30% !important;
+  }
+}
+/* sm > */
+@media (min-width: 575.98px) {
+  .div-custom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .div-options {
+    margin-top: 3rem !important;
+  }
+  .div-password {
+    margin-top: 3rem !important;
+  }
+  .input-switch {
+    width: 25% !important;
+  }
+}
